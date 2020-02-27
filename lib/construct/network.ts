@@ -1,6 +1,6 @@
 import cdk = require("@aws-cdk/core");
 import ec2 = require("@aws-cdk/aws-ec2");
-import mycdk = require('cdk-identifier');
+import mycdk = require('lib/util');
 
 export class Network extends cdk.Construct {
   public readonly vpc: ec2.Vpc;

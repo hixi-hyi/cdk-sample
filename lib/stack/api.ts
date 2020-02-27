@@ -1,5 +1,5 @@
 import cdk = require('@aws-cdk/core');
-import mycdk = require('cdk-identifier');
+import mycdk = require('lib/util');
 import usecase = require('./usecase');
 
 interface ApiStackProps extends usecase.DockerStackBaseProps{}

@@ -1,5 +1,5 @@
 import cdk = require('@aws-cdk/core');
-import mycdk = require('cdk-identifier');
+import mycdk = require('lib/util');
 import construct = require('lib/construct');
 import common = require('lib/stack/common');
 

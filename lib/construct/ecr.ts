@@ -1,5 +1,5 @@
 import cdk = require("@aws-cdk/core");
-import mycdk = require('cdk-identifier');
+import mycdk = require('lib/util');
 import ecr = require("@aws-cdk/aws-ecr");
 
 interface EcrStackProps {
